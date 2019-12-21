@@ -23,11 +23,11 @@ Facebook political ads database: https://www.propublica.org/datastore/dataset/po
 
 Data is Plural source: https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition
 
-**Approach
+**Approach**
 
 By looking at the targetedness, campaigners, segmentations, and the entities mentioned in the ads I will be able to draw insights from this data to find out the ways organizations on Facebook effectively target Facebook users. 
 
-**Obstacles observed
+**Obstacles observed**
 
 Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values were not converted into proper datetime values and the ad impressions still appears as numeric continous data as supposed to categorical.
 
