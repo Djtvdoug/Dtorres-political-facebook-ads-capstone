@@ -3,37 +3,28 @@ Analysis of political ads on Facebook.
 Douglas Torres Capstone proposal
 
 Executive Summary
-This section provides an overview to the project. It should briefly touch on the motivation, data question, data to be used, along with any known assumptions and challenges.
+I will be looking into data from political ads in Facebook to determine what makes a political ad successful on the platform. I gathered public data from ProPublica compiled from thousands of ProPublica users from around the world, and data from Data is Plural that takes a look at posts by hyperpartisan Facebook pages.
+
 Motivation
-Social media is been found to influence the discourse on political issues over the last decade so I will be looking into data from political ads in Facebook to determine what makes a political ad successful on the platform.
+Social media is been found to influence the discourse on political issues over the last decade. My aim with this capstone project is to shed some light on which organizations are trying to influence public sentiment the most through Facebook and how reliable the information tends to be. 
 
 Data Question
 
 What makes a successful political ad on Facebook?
 
-
-Schedule (through 1/9/2020)
-1.	Get the Data (12/01/19)
-2.	Clean & Explore the Data (12/21/19)
-3.	Create Presentation of your Analysis (12/30/19)
--	Should be a presentation, but could include a Jupyter Notebook or dashboard in Excel, Tableau, or PowerBI
-4.	Internal demos (1/4/2020)
-5.	Demo Day!! (1/9/2020)
-
 Data Sources
 Article on how political ads online have affected political discourse 
 https://www.theguardian.com/technology/2018/mar/19/facebook-political-ads-social-media-history-online-democracy
 
-Facebook political ads database: : https://www.propublica.org/datastore/dataset/political-advertisements-from-facebook
+Facebook political ads database: https://www.propublica.org/datastore/dataset/political-advertisements-from-facebook
 
+Data is Plural source: https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition
 
+Approach
+By looking at the targetedness, campaigners, segmentations, and the entities mentioned in the ads I will be able to draw insights from this data to find out the ways organizations on Facebook effectively target Facebook users. 
 
-
-Known Issues and Challenges
-Explain any anticipated challenges with your project, and your plan for managing them.
-Something I will have to address when presenting information for this project is my personal bias. As someone who mainly subscribes to left-from-center politics (from the American perspective), I will have to make a conscious effort to present the data as it is revealed regardless of my worldview. 
-
-Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values are not date values for example. 
+Obstacles observed
+Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values were not converted into proper datetime values and the ad impressions still appears as numeric continous data as supposed to categorical.
 
 
 
