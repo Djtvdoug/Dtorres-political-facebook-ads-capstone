@@ -8,7 +8,7 @@ I will be looking into data from political ads in Facebook to determine what mak
 
 **Motivation**
 
-Social media is been found to influence the discourse on political issues over the last decade. My aim with this capstone project is to shed some light on which organizations are trying to influence public sentiment the most through Facebook and how reliable the information tends to be. 
+Social media has been found to influence the discourse on political issues over the last decade. My aim with this capstone project is to shine some light on which organizations are trying to influence public sentiment the most through Facebook and how reliable the information tends to be. 
 
 **Data Question**
 
@@ -29,7 +29,7 @@ By looking at the targetedness, campaigners, segmentations, and the entities men
 
 **Obstacles observed**
 
-Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values were not converted into proper datetime values and the ad impressions still appears as numeric continous data as supposed to categorical.
+Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values were not converted into proper datetime values and the ad impressions still appears as numeric continous data as supposed to categorical for example.
 
 
 
