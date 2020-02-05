@@ -31,8 +31,6 @@ By looking at the targetedness, campaigners, segmentations, and the entities men
 
 Data cleaning will have to address converting the data to appropriate datetime formats and such for proper analysis. The created_at and updated_at values were not converted into proper datetime values and the ad impressions still appears as numeric continous data as supposed to categorical for example.
 
+Another challange I encountered throughout the data set up was the json files stored in the entities and targets observations. A lot of data stored inside these json files gave more meaning to the data so I had to extract this by turning the files into dictionary values and matching them to their ad ids. This resulted in more than 1 million observations since each target and entities per ad were accounted for.
 
-
-
-
-
+![For loop created to extract data from the json format in the raw data.](Screenshots/Screen%20Shot%202019-12-27%20at%206.52.10%20PM.png)
